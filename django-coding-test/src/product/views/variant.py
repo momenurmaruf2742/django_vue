@@ -39,3 +39,4 @@ class VariantCreateView(BaseVariantView, CreateView):
 
 class VariantEditView(BaseVariantView, UpdateView):
     pk_url_kwarg = 'id'
+
